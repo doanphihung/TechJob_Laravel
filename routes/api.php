@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CityController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -15,4 +16,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Auth
+Route::post('employer/register', [AuthController::class, 'employerRegister']);
+
 Route::resource('cities',CityController::class);
+
+
