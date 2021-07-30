@@ -23,3 +23,8 @@ Route::post('login', [AuthController::class, 'login']);
 Route::resource('cities',CityController::class);
 
 
+Route::get('test', [AuthController::class, 'test'])->middleware('auth:api');
+Route::get('test1', [AuthController::class, 'test1'])->name('login');
+
+
+
