@@ -44,7 +44,7 @@ class AuthController extends Controller
         $credentials = $request->only(['email', 'password']);
         try {
             if (!JWTAuth::attempt($credentials)) {
-                return response()->json(['message' => 'Email hoặc mật khẩu không chính xác',
+                return response()->json(['message' => 'Email hoặc mật khẩu không chính xác!',
                     'status' => 0]);
 
             }
