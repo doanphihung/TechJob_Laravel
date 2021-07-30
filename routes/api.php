@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 //Auth
 Route::post('employer/register', [AuthController::class, 'employerRegister']);
+Route::post('login', [AuthController::class, 'login']);
 
 Route::resource('cities',CityController::class);
 

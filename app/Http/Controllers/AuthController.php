@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Company;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
 class AuthController extends Controller
@@ -30,6 +31,22 @@ class AuthController extends Controller
             return response()->json(['message' => 'Register successfully!'], 201);
         }
         return response()->json(['message' => 'Registration failed!'], 500);
+
+    }
+
+    public function login(Request $request)
+    {
+        $email = $request->email;
+        $password = $request->password;
+        $data = [
+            'email' => $email,
+            'password' => $password
+        ];
+        if (Auth::attempt($data)){
+            return response()->json(['status'=>'success'],201);
+        }else{
+            return response()->json(['status'=>'failed'],500);
+        }
 
     }
 }
