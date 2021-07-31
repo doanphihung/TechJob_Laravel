@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CityController;
+use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,11 +22,19 @@ use Illuminate\Support\Facades\Route;
 Route::post('employer/register', [AuthController::class, 'employerRegister']);
 Route::post('login', [AuthController::class, 'login']);
 
+//City
 Route::resource('cities',CityController::class);
 
+//Company
+Route::get('company/{id}/details', [CompanyController::class, 'details']);
+Route::post('company/{id}/update', [CompanyController::class, 'update']);
 
-Route::get('test', [AuthController::class, 'test'])->middleware('auth:api');
-Route::get('test1', [AuthController::class, 'test1'])->name('login');
+//User
+Route::get('user-current/{id}/details', [UserController::class, 'getUserCurrent']);
+
+
+
+
 
 
 
