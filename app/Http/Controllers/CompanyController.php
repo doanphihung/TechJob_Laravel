@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Company;
+use App\Models\Job;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Tymon\JWTAuth\Exceptions\JWTException;
@@ -10,12 +11,14 @@ use Tymon\JWTAuth\Exceptions\JWTException;
 class CompanyController extends Controller
 {
 
-    public function details($id) {
+    public function details($id): \Illuminate\Http\JsonResponse
+    {
         $company = Company::with(['user','city', 'jobs'])->where('user_id', '=',$id)->first();
         return response()->json($company, 200);
     }
 
-    public function update(Request $request, $id) {
+    public function update(Request $request, $id): \Illuminate\Http\JsonResponse
+    {
         try {
             $user = User::find($id);
             $user->name = $request->name;
@@ -42,6 +45,36 @@ class CompanyController extends Controller
         }
 
     }
+
+    public function postJob(Request $request, $id): \Illuminate\Http\JsonResponse
+    {
+        try {
+           $job = new Job();
+           $job->title = $request->title;
+           $job->language = $request->language;
+           $job->from_salary = $request->from_salary;
+           $job->to_salary = $request->to_salary;
+           $job->experience = $request->experience;
+           $job->expire = $request->expire;
+           $job->description = $request->description;
+           $job->type_of_job = $request->type_of_job;
+           $job->position = $request->position;
+           $job->upto = $request->upto;
+           $job->city_id = $request->city_id;
+           $job->category_id = $request->category_id;
+           $job->company_id = $id;
+           $job->save();
+            return response()->json(['message' => 'Thêm tin tuyển dụng thành công!',
+                'status' => 1], 200);
+
+        } catch (\Exception $exception) {
+            return response()->json(['message' => 'Thêm tin tuyển dụng thất bại!',
+                'status' => 0], 500);
+        }
+
+    }
+
+
 
 
 }
