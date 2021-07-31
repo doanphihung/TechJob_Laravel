@@ -57,7 +57,7 @@ class AuthController extends Controller
             'user_name' => $user->name,
             'user_email' => $user->email,
             'user_id' => $user->id,
-            'user_role' => $user->role
+            'user_role' => $user->role,
         ])->attempt($credentials);
 
         $response['message'] = 'Welcome ' . $user->name;
