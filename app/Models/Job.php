@@ -27,9 +27,4 @@ class Job extends Model
         return $this->belongsTo(Category::class, 'category_id', 'id');
     }
 
-    public function languages()
-    {
-        return $this->belongsToMany(Language::class, 'job_language', 'job_id', 'language_id');
-    }
-
 }

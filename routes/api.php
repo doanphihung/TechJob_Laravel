@@ -1,10 +1,9 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CityController;
 use App\Http\Controllers\CompanyController;
-use App\Http\Controllers\UserController;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,9 +27,12 @@ Route::resource('cities',CityController::class);
 //Company
 Route::get('company/{id}/details', [CompanyController::class, 'details']);
 Route::post('company/{id}/update', [CompanyController::class, 'update']);
+Route::post('company/{id}/post', [CompanyController::class, 'postJob']);
 
-//User
-Route::get('user-current/{id}/details', [UserController::class, 'getUserCurrent']);
+//Get all category
+Route::get('categories',[CategoryController::class, 'index']);
+
+
 
 
 
