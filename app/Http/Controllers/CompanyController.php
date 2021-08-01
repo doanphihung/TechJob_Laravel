@@ -13,8 +13,16 @@ class CompanyController extends Controller
 
     public function details($id): \Illuminate\Http\JsonResponse
     {
-        $company = Company::with(['user','city', 'jobs'])->where('user_id', '=',$id)->first();
-        return response()->json($company, 200);
+        $company = Company::with(['user', 'city', 'jobs'])->where('user_id', '=', $id)->first();
+        $jobs = Job::with(['city', 'category'])->where('company_id', $id)->orderBy('id', 'desc')->get();
+        return response()->json(['company' => $company,
+            'jobs' => $jobs], 200);
+    }
+
+    public function listJob($id): \Illuminate\Http\JsonResponse
+    {
+        $jobs = Job::with(['city', 'category'])->where('company_id', $id)->orderBy('id', 'desc')->get();
+        return response()->json($jobs, 200);
     }
 
     public function update(Request $request, $id): \Illuminate\Http\JsonResponse
@@ -29,16 +37,17 @@ class CompanyController extends Controller
                 $user->image = $newImageName;
             }
             $user->save();
-            $company = Company::where('user_id', '=',$id)->first();
+            $company = Company::where('user_id', '=', $id)->first();
             $company->phone = $request->phone;
             $company->address = $request->address;
             $company->description = $request->description;
             $company->employees = $request->employees;
             $company->facebook = $request->facebook;
             $company->map_link = $request->map_link;
+            $company->image = $user->image;
             $company->save();
             return response()->json(['message' => 'Chỉnh sửa thành công!',
-                                    'status' => 1], 200);
+                'status' => 1], 200);
         } catch (JWTException $JWTException) {
             return response()->json(['message' => 'Chỉnh sửa thất bại!',
                 'status' => 0], 500);
@@ -49,21 +58,21 @@ class CompanyController extends Controller
     public function postJob(Request $request, $id): \Illuminate\Http\JsonResponse
     {
         try {
-           $job = new Job();
-           $job->title = $request->title;
-           $job->language = $request->language;
-           $job->from_salary = $request->from_salary;
-           $job->to_salary = $request->to_salary;
-           $job->experience = $request->experience;
-           $job->expire = $request->expire;
-           $job->description = $request->description;
-           $job->type_of_job = $request->type_of_job;
-           $job->position = $request->position;
-           $job->upto = $request->upto;
-           $job->city_id = $request->city_id;
-           $job->category_id = $request->category_id;
-           $job->company_id = $id;
-           $job->save();
+            $job = new Job();
+            $job->title = $request->title;
+            $job->language = $request->language;
+            $job->from_salary = $request->from_salary;
+            $job->to_salary = $request->to_salary;
+            $job->experience = $request->experience;
+            $job->expire = $request->expire;
+            $job->description = $request->description;
+            $job->type_of_job = $request->type_of_job;
+            $job->position = $request->position;
+            $job->upto = $request->upto;
+            $job->city_id = $request->city_id;
+            $job->category_id = $request->category_id;
+            $job->company_id = $id;
+            $job->save();
             return response()->json(['message' => 'Thêm tin tuyển dụng thành công!',
                 'status' => 1], 200);
 
@@ -73,8 +82,4 @@ class CompanyController extends Controller
         }
 
     }
-
-
-
-
 }
