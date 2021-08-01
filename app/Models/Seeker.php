@@ -9,6 +9,17 @@ class Seeker extends Model
 {
     use HasFactory;
     protected $table = 'seekers';
+    protected $fillable = [
+        'id',
+        'gender',
+        'brithday',
+        'phone',
+        'address',
+        'education',
+        'experience',
+        'image',
+        'user_id'
+    ];
 
     public function user() {
         return $this->belongsTo(User::class, 'user_id', 'id');

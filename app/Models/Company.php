@@ -9,6 +9,20 @@ class Company extends Model
 {
     use HasFactory;
     protected $table = 'companies';
+    protected $fillable = [
+        'id',
+        'phone',
+        'address',
+        'description',
+        'employees',
+        'facebook',
+        'map_link',
+        'image',
+        'user_id',
+        'city_id',
+        'code',
+        'acronym',
+    ];
 
     public function user()
     {

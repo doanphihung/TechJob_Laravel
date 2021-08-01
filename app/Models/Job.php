@@ -9,6 +9,24 @@ class Job extends Model
 {
     use HasFactory;
     protected $table = 'jobs';
+    protected $fillable = [
+        'id',
+        'title',
+        'language',
+        'form_salary',
+        'to_salary',
+        'experience',
+        'expire',
+        'description',
+        'type_of_job',
+        'position',
+        'view',
+        'upto',
+        'city_id',
+        'category_id',
+        'status',
+        'company_id'
+    ];
 
     public function city() {
         return $this->belongsTo(City::class, 'city_id', 'id');
