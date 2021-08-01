@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 //Auth
 Route::post('employer/register', [AuthController::class, 'employerRegister']);
+Route::post('seeker/register', [AuthController::class, 'seekerRegister']);
 Route::post('login', [AuthController::class, 'login']);
 
 //City
@@ -31,6 +32,7 @@ Route::get('company/{id}/details', [CompanyController::class, 'details']);
 Route::post('company/{id}/update', [CompanyController::class, 'update']);
 Route::post('company/{id}/post', [CompanyController::class, 'postJob']);
 Route::get('company/{id}/list-job', [CompanyController::class, 'listJob']);
+Route::get('companies', [CompanyController::class, 'index']);
 
 //Category
 Route::get('categories',[CategoryController::class, 'index']);
@@ -38,6 +40,9 @@ Route::get('categories',[CategoryController::class, 'index']);
 //Job
 Route::get('job/{id}/details',[JobController::class, 'findById']);
 Route::post('job/{id}/update',[JobController::class, 'update']);
+    // Get all jobs desc
+Route::get('jobs',[JobController::class, 'index']);
+
 
 
 //Get Current user

@@ -9,7 +9,7 @@ class CategoryController extends Controller
 {
     public function index(): \Illuminate\Http\JsonResponse
     {
-        $categories = Category::all();
+        $categories = Category::with('jobs')->get();
         return response()->json($categories, 200);
     }
 
