@@ -12,4 +12,10 @@ class CategoryController extends Controller
         $categories = Category::all();
         return response()->json($categories, 200);
     }
+
+    public function test(): \Illuminate\Http\JsonResponse
+    {
+        $user = auth()->user();
+        return response()->json(['user' => $user], 200);
+    }
 }
