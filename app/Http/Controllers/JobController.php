@@ -7,6 +7,12 @@ use Illuminate\Http\Request;
 
 class JobController extends Controller
 {
+    public function index(): \Illuminate\Http\JsonResponse
+    {
+        $jobs = Job::with('company', 'category', 'city')->where('status', '=', '1')->orderBy('id', 'desc')->get();
+        return response()->json($jobs, 200);
+    }
+
     public function findById($id): \Illuminate\Http\JsonResponse
     {
         $job = Job::find($id);

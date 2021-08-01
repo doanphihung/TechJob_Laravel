@@ -6,10 +6,17 @@ use App\Models\Company;
 use App\Models\Job;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Tymon\JWTAuth\Exceptions\JWTException;
 
 class CompanyController extends Controller
 {
+
+    public function index(): \Illuminate\Http\JsonResponse
+    {
+        $companies = Company::with('user')->get();
+        return response()->json($companies, 200);
+    }
 
     public function details($id): \Illuminate\Http\JsonResponse
     {
@@ -32,6 +39,10 @@ class CompanyController extends Controller
             $user->name = $request->name;
             $image = $request->image;
             if ($request->hasFile('image')) {
+                $imageCurrent = $user->image;
+                if ($imageCurrent) {
+                    Storage::delete('public/company/' . $imageCurrent);
+                }
                 $newImageName = time() . '-' . $request->name . "." . $image->getClientOriginalExtension();
                 $request->file('image')->storeAs('public/company', $newImageName);
                 $user->image = $newImageName;
