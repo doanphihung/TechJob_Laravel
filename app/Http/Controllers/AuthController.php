@@ -8,6 +8,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use Namshi\JOSE\JWT;
 use Tymon\JWTAuth\Exceptions\JWTException;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
@@ -111,5 +112,11 @@ class AuthController extends Controller
         $response['message'] = 'Chào mừng ' . $user->name . '!';
         $response['status'] = 1;
         return response()->json($response, 200);
+    }
+
+    public function logout()
+    {
+        auth()->logout();
+        return response()->json(['message' => 'Đăng xuất thành công!',], 200);
     }
 }
