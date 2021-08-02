@@ -5,6 +5,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CityController;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\JobController;
+use App\Http\Controllers\SeekerController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -33,6 +34,10 @@ Route::post('company/{id}/update', [CompanyController::class, 'update']);
 Route::post('company/{id}/post', [CompanyController::class, 'postJob']);
 Route::get('company/{id}/list-job', [CompanyController::class, 'listJob']);
 Route::get('companies', [CompanyController::class, 'index']);
+
+//Seeker
+Route::get('seeker/{id}/details', [SeekerController::class, 'details']);
+Route::post('seeker/{id}/update', [SeekerController::class, 'update']);
 
 //Category
 Route::get('categories',[CategoryController::class, 'index']);

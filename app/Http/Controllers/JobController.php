@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Job;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class JobController extends Controller
 {
@@ -15,13 +16,14 @@ class JobController extends Controller
 
     public function findById($id): \Illuminate\Http\JsonResponse
     {
-        $job = Job::find($id);
+        $job = Job::with('city', 'category', 'company')->find($id);
         return response()->json($job, 200);
 
     }
 
     public function update(Request $request, $id)
     {
+        DB::beginTransaction();
         try {
             $job = Job::find($id);
             $job->title = $request->title;
@@ -37,15 +39,17 @@ class JobController extends Controller
             $job->city_id = $request->city_id;
             $job->category_id = $request->category_id;
             if (!$request->status) {
-                $job->status = 0;
-            } else {
+                $job->status = NULL;
+            } else{
                 $job->status = 1;
             }
             $job->save();
+            DB::commit();
             return response()->json(['message' => 'Chỉnh sửa tin tuyển dụng thành công!',
                 'status' => 1], 200);
 
         } catch (\Exception $exception) {
+            DB::rollBack();
             return response()->json(['message' => 'Chỉnh sửa tin tuyển dụng thất bại!',
                 'status' => 0], 500);
         }

@@ -53,12 +53,13 @@ class AuthController extends Controller
     public function seekerRegister(Request $request): \Illuminate\Http\JsonResponse
     {
         $oldEmail = User::where('email', $request->email)->first();
-        $oldPhone = Seeker::where('phone', '=', $request->phone)->first();
+        $oldPhoneSeeker = Seeker::where('phone', '=', $request->phone)->first();
+        $oldPhoneCompany = Company::where('phone', '=', $request->phone)->first();
         if ($oldEmail) {
             return response()->json(['status' => '0',
                 'message' => 'Email đã tồn tại']);
         }
-        if ($oldPhone) {
+        if ($oldPhoneSeeker == true || $oldPhoneCompany == true) {
             return response()->json(['status' => '2',
                 'message' => 'Số điện thoại đã tồn tại!']);
         }
@@ -107,7 +108,7 @@ class AuthController extends Controller
             'user_role' => $user->role,
         ])->attempt($credentials);
 
-        $response['message'] = 'Welcome ' . $user->name;
+        $response['message'] = 'Chào mừng ' . $user->name . '!';
         $response['status'] = 1;
         return response()->json($response, 200);
     }

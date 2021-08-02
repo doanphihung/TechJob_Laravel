@@ -13,6 +13,9 @@ class CategoryController extends Controller
         return response()->json($categories, 200);
     }
 
+
+
+    //test thử middleware
     public function test(): \Illuminate\Http\JsonResponse
     {
         $user = auth()->user();
