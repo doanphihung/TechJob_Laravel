@@ -24,6 +24,7 @@ use Illuminate\Support\Facades\Route;
 Route::post('employer/register', [AuthController::class, 'employerRegister']);
 Route::post('seeker/register', [AuthController::class, 'seekerRegister']);
 Route::post('login', [AuthController::class, 'login']);
+Route::post('logout', [AuthController::class, 'logout'])->middleware('auth:api');
 
 //City
 Route::resource('cities',CityController::class);
