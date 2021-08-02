@@ -16,7 +16,7 @@ class JobController extends Controller
 
     public function findById($id): \Illuminate\Http\JsonResponse
     {
-        $job = Job::find($id);
+        $job = Job::with('city', 'category', 'company')->find($id);
         return response()->json($job, 200);
 
     }
