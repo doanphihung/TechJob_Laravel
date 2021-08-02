@@ -48,6 +48,10 @@ Route::get('job/{id}/details',[JobController::class, 'findById']);
 Route::post('job/{id}/update',[JobController::class, 'update']);
     // Get all jobs desc
 Route::get('jobs',[JobController::class, 'index']);
+//search
+Route::get('jobs/search-by-keyword',[JobController::class,'searchByKeyWord']);
+Route::get('jobs/{id}/search-by-city',[JobController::class,'searchByCity']);
+Route::get('jobs/{id}/search-by-category',[JobController::class,'searchByCategory']);
 
 
 

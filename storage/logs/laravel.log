@@ -30,7 +30,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:43:32] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -63,7 +63,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:43:35] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -96,7 +96,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:44:00] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -129,7 +129,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:44:06] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -162,7 +162,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:44:48] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -195,7 +195,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:45:35] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -228,7 +228,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:45:36] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -261,7 +261,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:45:48] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -294,7 +294,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:45:59] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -327,7 +327,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:11] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -360,7 +360,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:12] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -393,7 +393,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:32] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -426,7 +426,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:34] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -459,7 +459,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:34] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -492,7 +492,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:34] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -525,7 +525,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:35] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -558,7 +558,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:35] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -591,7 +591,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:35] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -624,7 +624,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:35] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -657,7 +657,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:35] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -690,7 +690,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:48] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -723,7 +723,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:46:56] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -756,7 +756,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:48:38] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -789,7 +789,7 @@
 #27 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #28 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #29 {main}
-"} 
+"}
 [2021-08-01 09:50:25] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -820,7 +820,7 @@
 #25 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
 #26 /Users/doanhung/Desktop/TechJob_Laravel/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2021-08-01 09:51:08] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -851,7 +851,7 @@
 #25 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
 #26 /Users/doanhung/Desktop/TechJob_Laravel/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2021-08-01 09:52:04] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -882,7 +882,7 @@
 #25 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
 #26 /Users/doanhung/Desktop/TechJob_Laravel/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2021-08-01 09:52:53] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -913,7 +913,7 @@
 #25 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
 #26 /Users/doanhung/Desktop/TechJob_Laravel/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2021-08-01 09:54:45] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -944,7 +944,7 @@
 #25 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
 #26 /Users/doanhung/Desktop/TechJob_Laravel/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2021-08-01 09:57:08] local.ERROR: Please provide a valid cache path. {"exception":"[object] (InvalidArgumentException(code: 0): Please provide a valid cache path. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:36)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php(88): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false)
@@ -975,7 +975,7 @@
 #25 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
 #26 /Users/doanhung/Desktop/TechJob_Laravel/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2021-08-01 10:07:11] local.ERROR: syntax error, unexpected '$company' (T_VARIABLE) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '$company' (T_VARIABLE) at /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/CompanyController.php:48)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/composer/ClassLoader.php(346): Composer\\Autoload\\includeFile('/Users/doanhung...')
@@ -1016,7 +1016,7 @@
 #35 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #36 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #37 {main}
-"} 
+"}
 [2021-08-01 10:07:16] local.ERROR: syntax error, unexpected '$company' (T_VARIABLE) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '$company' (T_VARIABLE) at /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/CompanyController.php:48)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/composer/ClassLoader.php(346): Composer\\Autoload\\includeFile('/Users/doanhung...')
@@ -1057,7 +1057,7 @@
 #35 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #36 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #37 {main}
-"} 
+"}
 [2021-08-01 10:07:17] local.ERROR: syntax error, unexpected '$company' (T_VARIABLE) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '$company' (T_VARIABLE) at /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/CompanyController.php:48)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/composer/ClassLoader.php(346): Composer\\Autoload\\includeFile('/Users/doanhung...')
@@ -1098,7 +1098,7 @@
 #35 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #36 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #37 {main}
-"} 
+"}
 [2021-08-01 10:07:19] local.ERROR: syntax error, unexpected '$company' (T_VARIABLE) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '$company' (T_VARIABLE) at /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/CompanyController.php:48)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/composer/ClassLoader.php(346): Composer\\Autoload\\includeFile('/Users/doanhung...')
@@ -1139,7 +1139,7 @@
 #35 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #36 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #37 {main}
-"} 
+"}
 [2021-08-01 10:07:23] local.ERROR: syntax error, unexpected '$company' (T_VARIABLE) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '$company' (T_VARIABLE) at /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/CompanyController.php:48)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/composer/ClassLoader.php(346): Composer\\Autoload\\includeFile('/Users/doanhung...')
@@ -1180,7 +1180,7 @@
 #35 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #36 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #37 {main}
-"} 
+"}
 [2021-08-01 10:47:12] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list' (SQL: insert into `users` (`title`, `email`, `password`, `role`, `updated_at`, `created_at`) values (Sun group, smart1@gmail.com, $2y$10$W2lHfRuL0Yu5G.oQ0NRKreepCAtZl9lN2tCqWTHkMa0ylXiMwCV6K, 2, 2021-08-01 10:47:12, 2021-08-01 10:47:12)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list' (SQL: insert into `users` (`title`, `email`, `password`, `role`, `updated_at`, `created_at`) values (Sun group, smart1@gmail.com, $2y$10$W2lHfRuL0Yu5G.oQ0NRKreepCAtZl9lN2tCqWTHkMa0ylXiMwCV6K, 2, 2021-08-01 10:47:12, 2021-08-01 10:47:12)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
@@ -1286,7 +1286,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-01 12:11:18] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list' (SQL: insert into `users` (`title`, `email`, `password`, `role`, `updated_at`, `created_at`) values (Phi Hùng, hung@gmail.comaaa, $2y$10$wbPp/jjSNeLXdzQ.uwHsF.g5t79IyHIHwriCmF.iJ/TJ1XjFfVfIm, 1, 2021-08-01 12:11:18, 2021-08-01 12:11:18)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list' (SQL: insert into `users` (`title`, `email`, `password`, `role`, `updated_at`, `created_at`) values (Phi Hùng, hung@gmail.comaaa, $2y$10$wbPp/jjSNeLXdzQ.uwHsF.g5t79IyHIHwriCmF.iJ/TJ1XjFfVfIm, 1, 2021-08-01 12:11:18, 2021-08-01 12:11:18)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `us...', Array, Object(Closure))
@@ -1392,7 +1392,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-01 12:43:03] local.ERROR: There are no commands defined in the "clear" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"clear\" namespace. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/symfony/console/Application.php:612)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/symfony/console/Application.php(663): Symfony\\Component\\Console\\Application->findNamespace('clear')
@@ -1402,7 +1402,7 @@
 #4 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #5 /Users/doanhung/Desktop/TechJob_Laravel/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #6 {main}
-"} 
+"}
 [2021-08-01 13:35:06] local.ERROR: Property [company] does not exist on this collection instance. {"exception":"[object] (Exception(code: 0): Property [company] does not exist on this collection instance. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php:907)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/JobController.php(14): Illuminate\\Support\\Collection->__get('company')
@@ -1445,7 +1445,7 @@
 #37 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #38 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #39 {main}
-"} 
+"}
 [2021-08-01 13:40:24] local.ERROR: Property [company] does not exist on this collection instance. {"exception":"[object] (Exception(code: 0): Property [company] does not exist on this collection instance. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php:907)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/JobController.php(15): Illuminate\\Support\\Collection->__get('company')
@@ -1488,7 +1488,7 @@
 #37 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #38 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #39 {main}
-"} 
+"}
 [2021-08-01 13:42:03] local.ERROR: Trying to get property 'user' of non-object {"exception":"[object] (ErrorException(code: 0): Trying to get property 'user' of non-object at /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/JobController.php:15)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/JobController.php(15): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Trying to get p...', '/Users/doanhung...', 15, Array)
@@ -1531,7 +1531,7 @@
 #37 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #38 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #39 {main}
-"} 
+"}
 [2021-08-01 13:42:04] local.ERROR: Trying to get property 'user' of non-object {"exception":"[object] (ErrorException(code: 0): Trying to get property 'user' of non-object at /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/JobController.php:15)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/JobController.php(15): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Trying to get p...', '/Users/doanhung...', 15, Array)
@@ -1574,7 +1574,7 @@
 #37 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #38 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #39 {main}
-"} 
+"}
 [2021-08-01 13:42:11] local.ERROR: Trying to get property 'user' of non-object {"exception":"[object] (ErrorException(code: 0): Trying to get property 'user' of non-object at /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/JobController.php:15)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/JobController.php(15): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Trying to get p...', '/Users/doanhung...', 15, Array)
@@ -1617,7 +1617,7 @@
 #37 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #38 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #39 {main}
-"} 
+"}
 [2021-08-01 13:42:20] local.ERROR: Trying to get property 'user' of non-object {"exception":"[object] (ErrorException(code: 0): Trying to get property 'user' of non-object at /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/JobController.php:15)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/JobController.php(15): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Trying to get p...', '/Users/doanhung...', 15, Array)
@@ -1660,7 +1660,7 @@
 #37 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #38 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #39 {main}
-"} 
+"}
 [2021-08-01 13:47:37] local.ERROR: Call to a member function first() on null {"exception":"[object] (Error(code: 0): Call to a member function first() on null at /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Controllers/JobController.php:13)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\\Http\\Controllers\\JobController->index()
@@ -1702,7 +1702,7 @@
 #36 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #37 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #38 {main}
-"} 
+"}
 [2021-08-01 13:49:54] local.ERROR: Call to undefined method Illuminate\Database\Eloquent\Builder::findById() {"exception":"[object] (BadMethodCallException(code: 0): Call to undefined method Illuminate\\Database\\Eloquent\\Builder::findById() at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php:50)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(36): Illuminate\\Database\\Eloquent\\Builder::throwBadMethodCallException('findById')
@@ -1747,7 +1747,7 @@
 #39 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #40 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #41 {main}
-"} 
+"}
 [2021-08-02 01:24:36] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:24:36, 2021-08-02 01:24:36)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:24:36, 2021-08-02 01:24:36)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -1853,7 +1853,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:25:06] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:25:06, 2021-08-02 01:25:06)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:25:06, 2021-08-02 01:25:06)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -1959,7 +1959,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:30:46] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:30:46, 2021-08-02 01:30:46)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:30:46, 2021-08-02 01:30:46)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -2065,7 +2065,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:32:25] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:32:25, 2021-08-02 01:32:25)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:32:25, 2021-08-02 01:32:25)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -2171,7 +2171,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:34:46] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:34:46, 2021-08-02 01:34:46)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:34:46, 2021-08-02 01:34:46)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -2277,7 +2277,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:35:52] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:35:52, 2021-08-02 01:35:52)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:35:52, 2021-08-02 01:35:52)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -2383,7 +2383,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:40:09] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:40:09, 2021-08-02 01:40:09)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:40:09, 2021-08-02 01:40:09)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -2489,7 +2489,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:44:28] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:44:28, 2021-08-02 01:44:28)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:44:28, 2021-08-02 01:44:28)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -2595,7 +2595,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:51:21] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (Lập trình python, Python, 10000000, 15000000, Từ 1 năm kinh nghiệm, 2021-08-03, Mô tả, Full time, Junior, 20000000, 1, 5, 28, 2021-08-02 01:51:21, 2021-08-02 01:51:21)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (Lập trình python, Python, 10000000, 15000000, Từ 1 năm kinh nghiệm, 2021-08-03, Mô tả, Full time, Junior, 20000000, 1, 5, 28, 2021-08-02 01:51:21, 2021-08-02 01:51:21)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -2701,7 +2701,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:51:44] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 28, 2021-08-02 01:51:44, 2021-08-02 01:51:44)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 28, 2021-08-02 01:51:44, 2021-08-02 01:51:44)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -2807,7 +2807,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:51:58] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 2, 2021-08-02 01:51:58, 2021-08-02 01:51:58)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 2, 2021-08-02 01:51:58, 2021-08-02 01:51:58)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -2913,7 +2913,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:52:11] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:52:11, 2021-08-02 01:52:11)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:52:11, 2021-08-02 01:52:11)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -3019,7 +3019,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:53:33] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:53:33, 2021-08-02 01:53:33)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:53:33, 2021-08-02 01:53:33)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -3125,7 +3125,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:55:47] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:55:47, 2021-08-02 01:55:47)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:55:47, 2021-08-02 01:55:47)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -3231,7 +3231,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:59:13] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:59:13, 2021-08-02 01:59:13)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 01:59:13, 2021-08-02 01:59:13)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -3337,7 +3337,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 01:59:20] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 2, 2021-08-02 01:59:20, 2021-08-02 01:59:20)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 2, 2021-08-02 01:59:20, 2021-08-02 01:59:20)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -3443,7 +3443,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 02:00:42] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 02:00:42, 2021-08-02 02:00:42)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`tech_job`.`jobs`, CONSTRAINT `jobs_company_id_foreign` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`)) (SQL: insert into `jobs` (`title`, `language`, `from_salary`, `to_salary`, `experience`, `expire`, `description`, `type_of_job`, `position`, `upto`, `city_id`, `category_id`, `company_id`, `updated_at`, `created_at`) values (blockchain, NodeJS, 5000000, 7000000, Dưới 1 năm kinh nghiệm, 2021-08-31, Mô tả, Fulltime, Fresher, 20000000, 2, 6, 27, 2021-08-02 02:00:42, 2021-08-02 02:00:42)) at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback('insert into `jo...', Array, Object(Closure))
@@ -3549,7 +3549,7 @@
 #48 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #50 {main}
-"} 
+"}
 [2021-08-02 10:51:59] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3585,7 +3585,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:52:13] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3621,7 +3621,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:52:41] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3657,7 +3657,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:52:46] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3693,7 +3693,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:52:47] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3729,7 +3729,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:52:52] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3765,7 +3765,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:52:52] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3801,7 +3801,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:52:59] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3837,7 +3837,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:53:24] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3873,7 +3873,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:53:39] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3909,7 +3909,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:53:55] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3945,7 +3945,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:53:58] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -3981,7 +3981,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:53:59] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4017,7 +4017,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:54:00] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4053,7 +4053,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:54:01] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4089,7 +4089,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:54:57] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4125,7 +4125,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:56:22] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4161,7 +4161,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 10:57:58] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4197,7 +4197,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:01:56] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4233,7 +4233,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:18:38] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4269,7 +4269,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:19:12] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4305,7 +4305,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:19:13] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4341,7 +4341,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:19:49] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4377,7 +4377,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:20:19] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4413,7 +4413,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:20:20] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4449,7 +4449,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:20:21] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4485,7 +4485,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:20:23] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4521,7 +4521,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:20:23] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4557,7 +4557,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:21:08] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4593,7 +4593,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:21:11] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4629,7 +4629,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:21:11] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4665,7 +4665,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:21:12] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4701,7 +4701,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:21:14] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4737,7 +4737,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:22:26] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4773,7 +4773,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:22:28] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4809,7 +4809,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:22:41] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4845,7 +4845,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:22:43] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4881,7 +4881,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:22:46] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4917,7 +4917,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:24:13] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4953,7 +4953,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:24:40] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -4989,7 +4989,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:29:20] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5025,7 +5025,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:29:26] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5061,7 +5061,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 11:29:27] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5097,7 +5097,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:27:14] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5133,7 +5133,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:27:20] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5169,7 +5169,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:27:24] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5205,7 +5205,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:27:24] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5241,7 +5241,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:27:26] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5277,7 +5277,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:27:27] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5313,7 +5313,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:27:28] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5349,7 +5349,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:27:29] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5385,7 +5385,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:27:30] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5421,7 +5421,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:27:31] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5457,7 +5457,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:27:32] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5493,7 +5493,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:28:49] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5529,7 +5529,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:28:50] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5565,7 +5565,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:28:51] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5601,7 +5601,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:28:52] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5637,7 +5637,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:28:53] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5673,7 +5673,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:28:54] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5709,7 +5709,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:29:14] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5745,7 +5745,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:29:15] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5781,7 +5781,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:31:04] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5817,7 +5817,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:31:30] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5853,7 +5853,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:31:40] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5889,7 +5889,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:31:40] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5925,7 +5925,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:31:41] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5961,7 +5961,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:31:42] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -5997,7 +5997,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:31:43] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6033,7 +6033,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:57:33] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6069,7 +6069,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:06] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6105,7 +6105,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:11] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6141,7 +6141,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:15] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6177,7 +6177,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:37] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6213,7 +6213,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:45] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6249,7 +6249,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:46] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6285,7 +6285,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:47] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6321,7 +6321,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:48] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6357,7 +6357,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:49] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6393,7 +6393,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:50] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6429,7 +6429,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:51] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6465,7 +6465,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:51] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6501,7 +6501,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 14:58:54] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6537,7 +6537,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:00:12] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6573,7 +6573,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:00:23] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6609,7 +6609,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:00:24] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6645,7 +6645,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:01:31] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6681,7 +6681,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:01:34] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6717,7 +6717,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:01:35] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6753,7 +6753,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:01:36] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6789,7 +6789,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:01:38] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6825,7 +6825,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:01:49] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6861,7 +6861,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:02:16] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6897,7 +6897,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:05:23] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6933,7 +6933,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:12:45] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -6969,7 +6969,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:12:48] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -7005,7 +7005,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:14:53] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -7041,7 +7041,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:15:42] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -7077,7 +7077,7 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}
 [2021-08-02 15:15:43] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
 [stacktrace]
 #0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
@@ -7113,4 +7113,4 @@
 #30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
-"} 
+"}

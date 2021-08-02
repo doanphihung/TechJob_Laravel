@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
+use App\Models\City;
+use App\Models\Company;
 use App\Models\Job;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -54,4 +57,40 @@ class JobController extends Controller
                 'status' => 0], 500);
         }
     }
+
+    public function searchByKeyWord(Request $request): \Illuminate\Http\JsonResponse
+    {
+        $title=$request->title;
+        $jobs= Job::with('company','category','city')
+            ->where('title','LIKE','%'.$title.'%')->get();
+        return response()->json([
+            'message'=>'search success',
+            'jobs'=>$jobs,
+        ],200);
+    }
+
+    public function searchByCity(Request $request,$id): \Illuminate\Http\JsonResponse
+    {
+        $title=$request->title;
+        $city=City::with('jobs')->find($id);
+        $jobs=$city->jobs;
+        $jobs=$jobs->intersect(Job::with('company','category','city')
+            ->where('title','LIKE','%'.$title.'%')->get());
+        return response()->json([
+            'message'=>'search success',
+            'jobs'=>$jobs,
+        ],200);
+    }
+
+    public function searchByCategory($id): \Illuminate\Http\JsonResponse
+    {
+        $jobs=Category::with('jobs')->find($id)->jobs;
+        return response()->json([
+            'message'=>'search success',
+            'jobs'=>$jobs,
+        ],200);
+    }
+
+
+
 }
