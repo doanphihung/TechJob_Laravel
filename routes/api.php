@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CityController;
+use App\Http\Controllers\JobController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -26,5 +27,9 @@ Route::resource('cities',CityController::class);
 Route::get('test', [AuthController::class, 'test'])->middleware('auth:api');
 Route::get('test1', [AuthController::class, 'test1'])->name('login');
 
+
+Route::resource('jobs',JobController::class);
+
+Route::post('jobs/searchByTitle',[JobController::class,'searchByTiTle']);
 
 
