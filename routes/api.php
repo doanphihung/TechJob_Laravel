@@ -1,9 +1,11 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CityController;
+use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\JobController;
-use Illuminate\Http\Request;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,17 +21,46 @@ use Illuminate\Support\Facades\Route;
 
 //Auth
 Route::post('employer/register', [AuthController::class, 'employerRegister']);
+Route::post('seeker/register', [AuthController::class, 'seekerRegister']);
 Route::post('login', [AuthController::class, 'login']);
 
+//City
 Route::resource('cities',CityController::class);
 
+//Company
+Route::get('company/{id}/details', [CompanyController::class, 'details']);
+Route::post('company/{id}/update', [CompanyController::class, 'update']);
+Route::post('company/{id}/post', [CompanyController::class, 'postJob']);
+Route::get('company/{id}/list-job', [CompanyController::class, 'listJob']);
+Route::get('companies', [CompanyController::class, 'index']);
 
-Route::get('test', [AuthController::class, 'test'])->middleware('auth:api');
-Route::get('test1', [AuthController::class, 'test1'])->name('login');
+//Category
+Route::get('categories',[CategoryController::class, 'index']);
+
+//Job
+Route::get('job/{id}/details',[JobController::class, 'findById']);
+Route::post('job/{id}/update',[JobController::class, 'update']);
+    // Get all jobs desc
+Route::get('jobs',[JobController::class, 'index']);
 
 
-Route::resource('jobs',JobController::class);
 
-Route::post('jobs/searchByTitle',[JobController::class,'searchByTiTle']);
+//Get Current user
+Route::get('current-user/{id}/details', [UserController::class, 'details']);
+
+
+
+
+
+//Test
+Route::get('test',[CategoryController::class, 'test'])->middleware('auth:api');
+
+
+
+
+
+
+
+
 
 

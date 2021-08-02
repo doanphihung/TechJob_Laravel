@@ -7,92 +7,47 @@ use Illuminate\Http\Request;
 
 class JobController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+    public function index(): \Illuminate\Http\JsonResponse
     {
-        //
+        $jobs = Job::with('company', 'category', 'city')->where('status', '=', '1')->orderBy('id', 'desc')->get();
+        return response()->json($jobs, 200);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    public function findById($id): \Illuminate\Http\JsonResponse
     {
-        //
+        $job = Job::find($id);
+        return response()->json($job, 200);
+
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param \Illuminate\Http\Request $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param \Illuminate\Http\Request $request
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, $id)
     {
-        //
-    }
+        try {
+            $job = Job::find($id);
+            $job->title = $request->title;
+            $job->language = $request->language;
+            $job->from_salary = $request->from_salary;
+            $job->to_salary = $request->to_salary;
+            $job->experience = $request->experience;
+            $job->expire = $request->expire;
+            $job->description = $request->description;
+            $job->type_of_job = $request->type_of_job;
+            $job->position = $request->position;
+            $job->upto = $request->upto;
+            $job->city_id = $request->city_id;
+            $job->category_id = $request->category_id;
+            if (!$request->status) {
+                $job->status = 0;
+            } else {
+                $job->status = 1;
+            }
+            $job->save();
+            return response()->json(['message' => 'Chỉnh sửa tin tuyển dụng thành công!',
+                'status' => 1], 200);
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param int $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
-
-    public function searchByTiTle(Request $request)
-    {
-        $title = $request->title;
-        $jobs = Job::with('languages')
-            ->where('title', 'LIKE', '%' . $title . '%')
-            ->get();
-
-        return response()->json([
-            'status' => 'success',
-            'jobs' => $jobs,
-        ]);
+        } catch (\Exception $exception) {
+            return response()->json(['message' => 'Chỉnh sửa tin tuyển dụng thất bại!',
+                'status' => 0], 500);
+        }
     }
 }

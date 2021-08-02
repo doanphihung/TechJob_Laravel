@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddColumnCompanyIdOnTableJobs extends Migration
+class AddColumnLanguageOnTableJobs extends Migration
 {
     /**
      * Run the migrations.
@@ -14,8 +14,8 @@ class AddColumnCompanyIdOnTableJobs extends Migration
     public function up()
     {
         Schema::table('jobs', function (Blueprint $table) {
-            $table->unsignedBigInteger('company_id');
-            $table->foreign('company_id')->references('id')->on('jobs');
+            $table->string('language')->after('title')->nullable();
+
         });
     }
 
