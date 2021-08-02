@@ -107,9 +107,8 @@ class AuthController extends Controller
             'user_role' => $user->role,
         ])->attempt($credentials);
 
-        $response['message'] = 'Welcome ' . $user->name;
+        $response['message'] = 'Chào mừng ' . $user->name . '!';
         $response['status'] = 1;
         return response()->json($response, 200);
     }
-
 }
