@@ -1,6 +1,12 @@
 <?php
 
-use Illuminate\Http\Request;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\CityController;
+use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\JobController;
+use App\Http\Controllers\SeekerController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +20,56 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+//Auth
+Route::post('employer/register', [AuthController::class, 'employerRegister']);
+Route::post('seeker/register', [AuthController::class, 'seekerRegister']);
+Route::post('login', [AuthController::class, 'login']);
+
+//City
+Route::resource('cities',CityController::class);
+
+//Company
+Route::get('company/{id}/details', [CompanyController::class, 'details']);
+Route::post('company/{id}/update', [CompanyController::class, 'update']);
+Route::post('company/{id}/post', [CompanyController::class, 'postJob']);
+Route::get('company/{id}/list-job', [CompanyController::class, 'listJob']);
+Route::get('companies', [CompanyController::class, 'index']);
+
+//Seeker
+Route::get('seeker/{id}/details', [SeekerController::class, 'details']);
+Route::post('seeker/{id}/update', [SeekerController::class, 'update']);
+
+//Category
+Route::get('categories',[CategoryController::class, 'index']);
+
+//Job
+Route::get('job/{id}/details',[JobController::class, 'findById']);
+Route::post('job/{id}/update',[JobController::class, 'update']);
+    // Get all jobs desc
+Route::get('jobs',[JobController::class, 'index']);
+//search
+Route::get('jobs/search-by-keyword',[JobController::class,'searchByKeyWord']);
+Route::get('jobs/{id}/search-by-city',[JobController::class,'searchByCity']);
+Route::get('jobs/{id}/search-by-category',[JobController::class,'searchByCategory']);
+
+
+
+//Get Current user
+Route::get('current-user/{id}/details', [UserController::class, 'details']);
+
+
+
+
+
+//Test
+Route::get('test',[CategoryController::class, 'test'])->middleware('auth:api');
+
+
+
+
+
+
+
+
+
+
