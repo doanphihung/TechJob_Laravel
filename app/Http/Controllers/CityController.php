@@ -10,12 +10,15 @@ class CityController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\JsonResponse
      */
     public function index()
     {
         $cities = City::all();
-        return response()->json($cities,200);
+        return response()->json([
+            'message'=>'success',
+            'cities'=>$cities,
+        ],200);
     }
 
     /**

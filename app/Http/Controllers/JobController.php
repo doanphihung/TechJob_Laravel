@@ -43,7 +43,7 @@ class JobController extends Controller
             $job->category_id = $request->category_id;
             if (!$request->status) {
                 $job->status = NULL;
-            } else{
+            } else {
                 $job->status = 1;
             }
             $job->save();
@@ -58,39 +58,57 @@ class JobController extends Controller
         }
     }
 
-    public function searchByKeyWord(Request $request): \Illuminate\Http\JsonResponse
+    public function searchWithoutCity(Request $request): \Illuminate\Http\JsonResponse
     {
-        $title=$request->title;
-        $jobs= Job::with('company','category','city')
-            ->where('title','LIKE','%'.$title.'%')->get();
+        $keyword = $request->keyword;
+        $language = $request->language;
+        $jobs = Job::with('company', 'category', 'city')
+            ->where('title', 'LIKE', '%' . $keyword . '%')
+            ->where('language', 'LIKE', '%' . $language . '%')
+            ->get();
         return response()->json([
-            'message'=>'search success',
-            'jobs'=>$jobs,
-        ],200);
+            'message' => 'search success',
+            'jobs' => $jobs,
+        ], 200);
     }
 
-    public function searchByCity(Request $request,$id): \Illuminate\Http\JsonResponse
+    public function searchWithCity(Request $request): \Illuminate\Http\JsonResponse
     {
-        $title=$request->title;
-        $city=City::with('jobs')->find($id);
-        $jobs=$city->jobs;
-        $jobs=$jobs->intersect(Job::with('company','category','city')
-            ->where('title','LIKE','%'.$title.'%')->get());
+        $keyword = $request->keyword;
+        $language = $request->language;
+        $city = (int)$request->city;
+        $jobs = Job::with('company', 'category', 'city')
+            ->where('title', 'LIKE', '%' . $keyword . '%')
+            ->where('language', 'LIKE', '%' . $language . '%')
+            ->get();
+        $jobs = $jobs->intersect(City::with('jobs')->find($city)->jobs);
         return response()->json([
-            'message'=>'search success',
-            'jobs'=>$jobs,
-        ],200);
+            'message' => 'search success',
+            'jobs' => $jobs,
+        ], 200);
     }
+
 
     public function searchByCategory($id): \Illuminate\Http\JsonResponse
     {
-        $jobs=Category::with('jobs')->find($id)->jobs;
+        $jobs = Job::with('company', 'category', 'city')->get();
+        $jobs = $jobs->intersect(Category::with('jobs')->find($id)->jobs);
         return response()->json([
-            'message'=>'search success',
-            'jobs'=>$jobs,
-        ],200);
+            'message' => 'search success',
+            'jobs' => $jobs,
+        ], 200);
     }
 
-
-
+    public function searchByCompany(Request $request): \Illuminate\Http\JsonResponse
+    {
+        $companyName=$request->companyKeyword;
+        $jobs = Job::with('company', 'category', 'city')->get();
+        $jobs=$jobs->intersect(Company::with('jobs','user')
+            ->where('name','LIKE',$companyName)
+            ->get());
+        return response()->json([
+            'message' => 'search success',
+            'jobs' => $jobs,
+        ], 200);
+    }
 }
