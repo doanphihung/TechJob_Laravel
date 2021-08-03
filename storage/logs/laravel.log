@@ -7114,6 +7114,78 @@
 #31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
 #32 {main}
 "}
+[2021-08-03 10:06:35] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
+[stacktrace]
+#0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
+#1 /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Middleware/Authenticate.php(18): route('login')
+#2 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(83): App\\Http\\Middleware\\Authenticate->redirectTo(Object(Illuminate\\Http\\Request))
+#3 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(68): Illuminate\\Auth\\Middleware\\Authenticate->unauthenticated(Object(Illuminate\\Http\\Request), Array)
+#4 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(42): Illuminate\\Auth\\Middleware\\Authenticate->authenticate(Object(Illuminate\\Http\\Request), Array)
+#5 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#6 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(697): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#8 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#9 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#10 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#11 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(166): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#12 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /Users/doanhung/Desktop/TechJob_Laravel/vendor/fruitcake/laravel-cors/src/HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /Users/doanhung/Desktop/TechJob_Laravel/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
+#32 {main}
+"}
+[2021-08-03 10:06:36] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:427)
+[stacktrace]
+#0 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(726): Illuminate\\Routing\\UrlGenerator->route('login', Array, true)
+#1 /Users/doanhung/Desktop/TechJob_Laravel/app/Http/Middleware/Authenticate.php(18): route('login')
+#2 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(83): App\\Http\\Middleware\\Authenticate->redirectTo(Object(Illuminate\\Http\\Request))
+#3 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(68): Illuminate\\Auth\\Middleware\\Authenticate->unauthenticated(Object(Illuminate\\Http\\Request), Array)
+#4 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(42): Illuminate\\Auth\\Middleware\\Authenticate->authenticate(Object(Illuminate\\Http\\Request), Array)
+#5 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure), 'api')
+#6 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(697): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#8 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(672): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#9 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(636): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#10 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(625): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#11 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(166): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#12 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /Users/doanhung/Desktop/TechJob_Laravel/vendor/fruitcake/laravel-cors/src/HandleCors.php(52): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\\Cors\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /Users/doanhung/Desktop/TechJob_Laravel/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(141): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#29 /Users/doanhung/Desktop/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#30 /Users/doanhung/Desktop/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#31 /Users/doanhung/Desktop/TechJob_Laravel/server.php(21): require_once('/Users/doanhung...')
+#32 {main}
+"}
 [2021-08-03 06:46:52] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'where clause' (SQL: select * from `jobs` where (`0` = title and `1` = LIKE and `2` = %Ja%)) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'where clause' (SQL: select * from `jobs` where (`0` = title and `1` = LIKE and `2` = %Ja%)) at /var/www/html2/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php:692)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/vendor/laravel/framework/src/Illuminate/Database/Connection.php(652): Illuminate\\Database\\Connection->runQueryCallback()
@@ -7217,7 +7289,7 @@
 #47 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #48 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #49 {main}
-"} 
+"}
 [2021-08-03 08:35:13] local.ERROR: Attempt to read property "jobs" on null {"exception":"[object] (ErrorException(code: 0): Attempt to read property \"jobs\" on null at /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php:84)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php(84): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -7260,7 +7332,7 @@
 #37 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #38 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #39 {main}
-"} 
+"}
 [2021-08-03 08:38:07] local.ERROR: Attempt to read property "jobs" on null {"exception":"[object] (ErrorException(code: 0): Attempt to read property \"jobs\" on null at /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php:84)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php(84): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -7303,7 +7375,7 @@
 #37 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #38 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #39 {main}
-"} 
+"}
 [2021-08-03 08:45:29] local.ERROR: Attempt to read property "jobs" on null {"exception":"[object] (ErrorException(code: 0): Attempt to read property \"jobs\" on null at /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php:84)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php(84): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -7346,7 +7418,7 @@
 #37 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #38 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #39 {main}
-"} 
+"}
 [2021-08-03 10:23:46] local.ERROR: Attempt to read property "jobs" on null {"exception":"[object] (ErrorException(code: 0): Attempt to read property \"jobs\" on null at /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php:84)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php(84): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -7389,7 +7461,7 @@
 #37 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #38 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #39 {main}
-"} 
+"}
 [2021-08-03 10:25:32] local.ERROR: Attempt to read property "jobs" on null {"exception":"[object] (ErrorException(code: 0): Attempt to read property \"jobs\" on null at /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php:84)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php(84): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -7432,7 +7504,7 @@
 #37 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #38 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #39 {main}
-"} 
+"}
 [2021-08-03 10:28:16] local.ERROR: Attempt to read property "jobs" on null {"exception":"[object] (ErrorException(code: 0): Attempt to read property \"jobs\" on null at /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php:84)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php(84): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -7475,7 +7547,7 @@
 #37 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #38 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #39 {main}
-"} 
+"}
 [2021-08-03 10:30:34] local.ERROR: Attempt to read property "jobs" on null {"exception":"[object] (ErrorException(code: 0): Attempt to read property \"jobs\" on null at /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php:84)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php(84): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -7518,7 +7590,7 @@
 #37 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #38 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #39 {main}
-"} 
+"}
 [2021-08-03 10:30:39] local.ERROR: Attempt to read property "jobs" on null {"exception":"[object] (ErrorException(code: 0): Attempt to read property \"jobs\" on null at /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php:84)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php(84): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -7561,7 +7633,7 @@
 #37 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #38 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #39 {main}
-"} 
+"}
 [2021-08-03 10:30:41] local.ERROR: Attempt to read property "jobs" on null {"exception":"[object] (ErrorException(code: 0): Attempt to read property \"jobs\" on null at /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php:84)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php(84): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -7604,7 +7676,7 @@
 #37 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #38 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #39 {main}
-"} 
+"}
 [2021-08-03 10:30:43] local.ERROR: Attempt to read property "jobs" on null {"exception":"[object] (ErrorException(code: 0): Attempt to read property \"jobs\" on null at /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php:84)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php(84): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -7647,7 +7719,7 @@
 #37 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #38 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #39 {main}
-"} 
+"}
 [2021-08-03 10:32:21] local.ERROR: Attempt to read property "jobs" on null {"exception":"[object] (ErrorException(code: 0): Attempt to read property \"jobs\" on null at /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php:84)
 [stacktrace]
 #0 /var/www/html2/TechJob_Laravel/app/Http/Controllers/JobController.php(84): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
@@ -7690,4 +7762,4 @@
 #37 /var/www/html2/TechJob_Laravel/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
 #38 /var/www/html2/TechJob_Laravel/server.php(21): require_once('...')
 #39 {main}
-"} 
+"}

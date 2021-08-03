@@ -20,8 +20,9 @@ class JobController extends Controller
     public function findById($id): \Illuminate\Http\JsonResponse
     {
         $job = Job::with('city', 'category', 'company')->find($id);
-        return response()->json($job, 200);
-
+        $company = Company::with(['user', 'city', 'jobs'])->where('id', '=', $job->company_id)->first();
+        return response()->json(['job' => $job,
+                                 'company' => $company], 200);
     }
 
     public function update(Request $request, $id)

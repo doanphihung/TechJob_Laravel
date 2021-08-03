@@ -32,6 +32,7 @@ class AuthController extends Controller
             if ($user) {
                 $company_acronym = strtoupper(substr(preg_replace('/\s+/', '', $request->name), 0, 3));
                 $company = new Company();
+                $company->name = $user->name;
                 $company->acronym = $company_acronym;
                 $company->city_id = $request->city_id;
                 $company->user_id = $user->id;
@@ -111,6 +112,7 @@ class AuthController extends Controller
 
         $response['message'] = 'Chào mừng ' . $user->name . '!';
         $response['status'] = 1;
+        $response['role'] = $user->role;
         return response()->json($response, 200);
     }
 
