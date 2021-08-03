@@ -15,7 +15,7 @@ class CompanyController extends Controller
 
     public function index(): \Illuminate\Http\JsonResponse
     {
-        $companies = Company::with('user')->get();
+        $companies = Company::with('user', 'city')->where('status', '=', '1')->get();
         return response()->json($companies, 200);
     }
 
@@ -51,6 +51,7 @@ class CompanyController extends Controller
             }
             $user->save();
             $company = Company::where('user_id', '=', $id)->first();
+            $company->name = $user->name;
             $company->phone = $request->phone;
             $company->address = $request->address;
             $company->description = $request->description;

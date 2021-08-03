@@ -20,8 +20,9 @@ class JobController extends Controller
     public function findById($id): \Illuminate\Http\JsonResponse
     {
         $job = Job::with('city', 'category', 'company')->find($id);
-        return response()->json($job, 200);
-
+        $company = Company::with(['user', 'city', 'jobs'])->where('id', '=', $job->company_id)->first();
+        return response()->json(['job' => $job,
+                                 'company' => $company], 200);
     }
 
     public function update(Request $request, $id)
@@ -43,7 +44,7 @@ class JobController extends Controller
             $job->category_id = $request->category_id;
             if (!$request->status) {
                 $job->status = NULL;
-            } else{
+            } else {
                 $job->status = 1;
             }
             $job->save();
@@ -60,37 +61,36 @@ class JobController extends Controller
 
     public function searchByKeyWord(Request $request): \Illuminate\Http\JsonResponse
     {
-        $title=$request->title;
-        $jobs= Job::with('company','category','city')
-            ->where('title','LIKE','%'.$title.'%')->get();
+        $title = $request->title;
+        $jobs = Job::with('company', 'category', 'city')
+            ->where('title', 'LIKE', '%' . $title . '%')->get();
         return response()->json([
-            'message'=>'search success',
-            'jobs'=>$jobs,
-        ],200);
+            'message' => 'search success',
+            'jobs' => $jobs,
+        ], 200);
     }
 
-    public function searchByCity(Request $request,$id): \Illuminate\Http\JsonResponse
+    public function searchByCity(Request $request, $id): \Illuminate\Http\JsonResponse
     {
-        $title=$request->title;
-        $city=City::with('jobs')->find($id);
-        $jobs=$city->jobs;
-        $jobs=$jobs->intersect(Job::with('company','category','city')
-            ->where('title','LIKE','%'.$title.'%')->get());
+        $title = $request->title;
+        $city = City::with('jobs')->find($id);
+        $jobs = $city->jobs;
+        $jobs = $jobs->intersect(Job::with('company', 'category', 'city')
+            ->where('title', 'LIKE', '%' . $title . '%')->get());
         return response()->json([
-            'message'=>'search success',
-            'jobs'=>$jobs,
-        ],200);
+            'message' => 'search success',
+            'jobs' => $jobs,
+        ], 200);
     }
 
     public function searchByCategory($id): \Illuminate\Http\JsonResponse
     {
-        $jobs=Category::with('jobs')->find($id)->jobs;
+        $jobs = Category::with('jobs')->find($id)->jobs;
         return response()->json([
-            'message'=>'search success',
-            'jobs'=>$jobs,
-        ],200);
+            'message' => 'search success',
+            'jobs' => $jobs,
+        ], 200);
     }
-
 
 
 }
