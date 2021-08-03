@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+                // CONTROLLER FRONTEND!!!
 
 //Auth
 Route::post('employer/register', [AuthController::class, 'employerRegister']);
@@ -28,7 +29,6 @@ Route::post('logout', [AuthController::class, 'logout'])->middleware('auth:api')
 
 //City
 Route::resource('cities',CityController::class);
-
 //Company
 Route::get('company/{id}/details', [CompanyController::class, 'details']);
 Route::post('company/{id}/update', [CompanyController::class, 'update']);
@@ -46,17 +46,29 @@ Route::get('categories',[CategoryController::class, 'index']);
 //Job
 Route::get('job/{id}/details',[JobController::class, 'findById']);
 Route::post('job/{id}/update',[JobController::class, 'update']);
-    // Get all jobs desc
+
+//Get all jobs desc
 Route::get('jobs',[JobController::class, 'index']);
-//search
+
+//Search
 Route::get('jobs/search-by-keyword',[JobController::class,'searchByKeyWord']);
 Route::get('jobs/{id}/search-by-city',[JobController::class,'searchByCity']);
 Route::get('jobs/{id}/search-by-category',[JobController::class,'searchByCategory']);
 
-
-
 //Get Current user
 Route::get('current-user/{id}/details', [UserController::class, 'details']);
+
+                         //END CONTROLLER FRONTEND
+Route::get('admin/companies', [\App\Http\Controllers\Admin\CompanyController::class, 'index']);
+Route::get('admin/companies/{id}/change-active', [\App\Http\Controllers\Admin\CompanyController::class, 'changeActive']);
+Route::get('admin/companies/{id}/change-unActive', [\App\Http\Controllers\Admin\CompanyController::class, 'changeUnActive']);
+
+                        //CONTROLLER ADMIN
+
+
+                        //END CONTROLLER ADMIN
+
+
 
 
 
