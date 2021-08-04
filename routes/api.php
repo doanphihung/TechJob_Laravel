@@ -5,6 +5,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CityController;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\JobController;
+use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\SeekerController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -29,6 +30,10 @@ Route::post('logout', [AuthController::class, 'logout'])->middleware('auth:api')
 
 //City
 Route::resource('cities',CityController::class);
+
+//Language
+Route::get('languages',[LanguageController::class, 'getAllLanguage']);
+
 //Company
 Route::get('company/{id}/details', [CompanyController::class, 'details']);
 Route::post('company/{id}/update', [CompanyController::class, 'update']);
@@ -50,27 +55,24 @@ Route::post('job/{id}/update',[JobController::class, 'update']);
 //Get all jobs desc
 Route::get('jobs',[JobController::class, 'index']);
 
-//Search
-Route::get('jobs/search-by-keyword',[JobController::class,'searchByKeyWord']);
-Route::get('jobs/{id}/search-by-city',[JobController::class,'searchByCity']);
-Route::get('jobs/{id}/search-by-category',[JobController::class,'searchByCategory']);
+
+//search
+Route::post('jobs/search-without-city',[JobController::class, 'searchWithoutCity']);
+Route::post('jobs/search-with-city',[JobController::class, 'searchWithCity']);
+Route::post('jobs/{id}/search-by-category',[JobController::class,'searchByCategory']);
+Route::post('jobs/search-by-company',[JobController::class,'searchByCompany']);
 
 //Get Current user
 Route::get('current-user/{id}/details', [UserController::class, 'details']);
 
                          //END CONTROLLER FRONTEND
+
+
+                        //CONTROLLER ADMIN
 Route::get('admin/companies', [\App\Http\Controllers\Admin\CompanyController::class, 'index']);
 Route::get('admin/companies/{id}/change-active', [\App\Http\Controllers\Admin\CompanyController::class, 'changeActive']);
 Route::get('admin/companies/{id}/change-unActive', [\App\Http\Controllers\Admin\CompanyController::class, 'changeUnActive']);
-
-                        //CONTROLLER ADMIN
-
-
                         //END CONTROLLER ADMIN
-
-
-
-
 
 
 
