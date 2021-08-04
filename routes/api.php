@@ -5,6 +5,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CityController;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\JobController;
+use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\SeekerController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -28,6 +29,8 @@ Route::post('logout', [AuthController::class, 'logout'])->middleware('auth:api')
 
 //City
 Route::resource('cities',CityController::class);
+//Language
+Route::get('languages',[LanguageController::class, 'getAllLanguage']);
 
 //Company
 Route::get('company/{id}/details', [CompanyController::class, 'details']);
@@ -49,9 +52,10 @@ Route::post('job/{id}/update',[JobController::class, 'update']);
     // Get all jobs desc
 Route::get('jobs',[JobController::class, 'index']);
 //search
-Route::get('jobs/search-by-keyword',[JobController::class,'searchByKeyWord']);
-Route::get('jobs/{id}/search-by-city',[JobController::class,'searchByCity']);
-Route::get('jobs/{id}/search-by-category',[JobController::class,'searchByCategory']);
+Route::post('jobs/search-without-city',[JobController::class, 'searchWithoutCity']);
+Route::post('jobs/search-with-city',[JobController::class, 'searchWithCity']);
+Route::post('jobs/{id}/search-by-category',[JobController::class,'searchByCategory']);
+Route::post('jobs/search-by-company',[JobController::class,'searchByCompany']);
 
 
 
