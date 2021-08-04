@@ -46,7 +46,7 @@ Route::get('seeker/{id}/details', [SeekerController::class, 'details']);
 Route::post('seeker/{id}/update', [SeekerController::class, 'update']);
 
 //Category
-Route::get('categories',[CategoryController::class, 'index']);
+Route::get('categories',[CategoryController::class, 'getAll']);
 
 //Job
 Route::get('job/{id}/details',[JobController::class, 'findById']);
@@ -59,8 +59,9 @@ Route::get('jobs',[JobController::class, 'index']);
 //search
 Route::post('jobs/search-without-city',[JobController::class, 'searchWithoutCity']);
 Route::post('jobs/search-with-city',[JobController::class, 'searchWithCity']);
-Route::post('jobs/{id}/search-by-category',[JobController::class,'searchByCategory']);
+Route::get('jobs/{id}/search-by-category',[JobController::class,'searchByCategory']);
 Route::post('jobs/search-by-company',[JobController::class,'searchByCompany']);
+Route::post('jobs/search-by-salary',[JobController::class,'searchBySalary']);
 
 //Get Current user
 Route::get('current-user/{id}/details', [UserController::class, 'details']);

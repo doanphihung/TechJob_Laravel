@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    public function index(): \Illuminate\Http\JsonResponse
+    public function getAll(): \Illuminate\Http\JsonResponse
     {
         $categories = Category::with('jobs')->get();
         return response()->json($categories, 200);
