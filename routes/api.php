@@ -54,8 +54,8 @@ Route::get('jobs',[JobController::class, 'index']);
 //search
 Route::post('jobs/search-without-city',[JobController::class, 'searchWithoutCity']);
 Route::post('jobs/search-with-city',[JobController::class, 'searchWithCity']);
-Route::get('jobs/{id}/search-by-category',[JobController::class,'searchByCategory']);
-Route::get('jobs/{id}/search-by-company',[JobController::class,'searchByCompany']);
+Route::post('jobs/{id}/search-by-category',[JobController::class,'searchByCategory']);
+Route::post('jobs/search-by-company',[JobController::class,'searchByCompany']);
 
 
 

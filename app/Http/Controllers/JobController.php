@@ -22,7 +22,7 @@ class JobController extends Controller
         $job = Job::with('city', 'category', 'company')->find($id);
         $company = Company::with(['user', 'city', 'jobs'])->where('id', '=', $job->company_id)->first();
         return response()->json(['job' => $job,
-                                 'company' => $company], 200);
+            'company' => $company], 200);
     }
 
     public function update(Request $request, $id)
@@ -102,14 +102,15 @@ class JobController extends Controller
 
     public function searchByCompany(Request $request): \Illuminate\Http\JsonResponse
     {
-        $companyName=$request->companyKeyword;
-        $jobs = Job::with('company', 'category', 'city')->get();
-        $jobs=$jobs->intersect(Company::with('jobs','user')
-            ->where('name','LIKE',$companyName)
-            ->get());
-        return response()->json([
-            'message' => 'search success',
-            'jobs' => $jobs,
-        ], 200);
+        $companyName = $request->companyKeyword;
+        $companyID = Company::where('name', 'LIKE','%'.$companyName.'%')
+            ->pluck('id')
+            ->all();
+        $jobs= Job::with('company', 'category', 'city')
+            ->whereIn('company_id',$companyID)->get();
+            return response()->json([
+                'message' => 'search success',
+                'jobs' => $jobs,
+            ], 200);
     }
 }
