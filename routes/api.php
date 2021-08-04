@@ -6,6 +6,7 @@ use App\Http\Controllers\CityController;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\JobController;
 use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\MailController;
 use App\Http\Controllers\SeekerController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -65,6 +66,8 @@ Route::post('jobs/search-by-salary',[JobController::class,'searchBySalary']);
 
 //Get Current user
 Route::get('current-user/{id}/details', [UserController::class, 'details']);
+//Mail
+Route::post('forward/{id}/job', [MailController::class, 'forwardJob']);
 
                          //END CONTROLLER FRONTEND
 
