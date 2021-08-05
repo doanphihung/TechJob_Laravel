@@ -29,6 +29,11 @@ class SendMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('TechJob')->view('mail.forward-job-mail', ['job' => $this->job]);
+        $subject = '[TechJob]' . $this->job->company->name . '-' . $this->job->title;
+//        return $this->subject('TechJob')->view('mail.forward-job-mail', ['job' => $this->job]);
+        return $this->from('hungq394@gmail.com', 'TechJob')
+            ->subject($subject)
+            ->markdown('mail.forward-job-mail')
+            ->with([ 'job'=> $this->job]);
     }
 }

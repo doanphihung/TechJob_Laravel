@@ -28,6 +28,7 @@ Route::post('employer/register', [AuthController::class, 'employerRegister']);
 Route::post('seeker/register', [AuthController::class, 'seekerRegister']);
 Route::post('login', [AuthController::class, 'login']);
 Route::post('logout', [AuthController::class, 'logout'])->middleware('auth:api');
+Route::post('verify-email/{confirmationCode}', [AuthController::class, 'verifyEmail']);
 
 //City
 Route::resource('cities',CityController::class);
@@ -68,7 +69,6 @@ Route::post('jobs/search-by-salary',[JobController::class,'searchBySalary']);
 Route::get('current-user/{id}/details', [UserController::class, 'details']);
 //Mail
 Route::post('forward/{id}/job', [MailController::class, 'forwardJob']);
-
                          //END CONTROLLER FRONTEND
 
 
