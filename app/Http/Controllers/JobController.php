@@ -14,6 +14,7 @@ class JobController extends Controller
     public function index(): \Illuminate\Http\JsonResponse
     {
         $jobs = Job::with('company', 'category', 'city')->where('status', '=', '1')->orderBy('id', 'desc')->get();
+        // $jobs=Job::all();
         return response()->json($jobs, 200);
     }
 
