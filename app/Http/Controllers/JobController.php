@@ -65,6 +65,7 @@ class JobController extends Controller
         $keyword = $request->keyword;
         $language = $request->language;
         $jobs = Job::with('company', 'category', 'city')
+            ->where('status', '=', 1)
             ->where('title', 'LIKE', '%' . $keyword . '%')
             ->where('language', 'LIKE', '%' . $language . '%')
             ->get();
@@ -80,6 +81,7 @@ class JobController extends Controller
         $language = $request->language;
         $city = (int)$request->city;
         $jobs = Job::with('company', 'category', 'city')
+            ->where('status', '=', 1)
             ->where('title', 'LIKE', '%' . $keyword . '%')
             ->where('language', 'LIKE', '%' . $language . '%')
             ->get();
@@ -93,7 +95,9 @@ class JobController extends Controller
 
     public function searchByCategory($id): \Illuminate\Http\JsonResponse
     {
-        $jobs = Job::with('company', 'category', 'city')->get();
+        $jobs = Job::with('company', 'category', 'city')
+            ->where('status', '=', 1)
+            ->get();
         $jobs = $jobs->intersect(Category::with('jobs')->find($id)->jobs);
         return response()->json([
             'message' => 'search success',
@@ -104,14 +108,30 @@ class JobController extends Controller
     public function searchByCompany(Request $request): \Illuminate\Http\JsonResponse
     {
         $companyName = $request->companyKeyword;
-        $companyID = Company::where('name', 'LIKE','%'.$companyName.'%')
+        $companyID = Company::where('name', 'LIKE', '%' . $companyName . '%')
             ->pluck('id')
             ->all();
-        $jobs= Job::with('company', 'category', 'city')
-            ->whereIn('company_id',$companyID)->get();
-            return response()->json([
-                'message' => 'search success',
-                'jobs' => $jobs,
-            ], 200);
+        $jobs = Job::with('company', 'category', 'city')
+            ->where('status','=',1)
+            ->whereIn('company_id', $companyID)->get();
+        return response()->json([
+            'message' => 'search success',
+            'jobs' => $jobs,
+        ], 200);
+    }
+
+    public function searchBySalary(Request $request): \Illuminate\Http\JsonResponse
+    {
+        $from_salary= +$request->from_salary;
+        $to_salary= +$request->to_salary;
+        $jobs = Job::with('company', 'category', 'city')
+            ->where('status', '=', 1)
+            ->where('from_salary','>=',$from_salary)
+            ->where('to_salary','<=',$to_salary)
+            ->get();
+        return response()->json([
+            'message' => 'search success',
+            'jobs' => $jobs,
+        ], 200);
     }
 }
