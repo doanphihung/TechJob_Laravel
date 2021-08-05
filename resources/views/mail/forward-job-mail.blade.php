@@ -23,8 +23,10 @@
                             <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                 <tbody>
                                 <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+                                    <img src="{{asset('./storage/admin/techjobs_bgw.png')}}" alt="" width="100px">
+                                    <thead><h5>Hi!</h5></thead>
                                     <td class="content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;" valign="top">
-                                        Hiện tai, <b>{{ $job->company->name }}</b> đang tuyển dụng <b>{{ $job->title }}</b>
+                                        Hiện tại, <b>{{ $job->company->name }}</b> đang tuyển dụng <b>{{ $job->title }}</b>
                                     </td>
                                 </tr>
 
@@ -35,7 +37,7 @@
                                 </tr>
                                 <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                     <td class="content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;" valign="top">
-                                      Nhấn vào đường linh sau để biết thêm thông tin:
+                                      Nhấn vào đường link sau để biết thêm thông tin:
                                     </td>
                                 </tr>
 
@@ -47,14 +49,13 @@
 
                                 <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                     <td class="content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;" valign="top">
-                                        <b>TechJob</b>
                                         <p>Support Team</p>
                                     </td>
                                 </tr>
 
                                 <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                     <td class="content-block" style="text-align: center;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0;" valign="top">
-                                        &copy; 2021 TechJob Team
+                                        <b>&copy; 2021 TechJob Team</b>
                                     </td>
                                 </tr>
                                 </tbody>

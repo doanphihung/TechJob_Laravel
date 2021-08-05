@@ -40,7 +40,8 @@ class MailController extends Controller
             $toEmail = $user->email;
             $confirmation_code = $user->confirmation_code;
             $data = [
-                'confirmation_code' => $confirmation_code
+                'confirmation_code' => $confirmation_code,
+                'user' => $user,
             ];
             $subject = '[TechJob] - Xác thực Email';
             Mail::send('mail.confirm-email', $data, function ($message) use ($subject, $toEmail) {

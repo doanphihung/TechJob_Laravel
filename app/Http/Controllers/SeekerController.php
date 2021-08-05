@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Company;
+use App\Models\Job;
 use App\Models\Seeker;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -51,5 +52,32 @@ class SeekerController extends Controller
             return response()->json(['message' => 'Chỉnh sửa hồ sơ thất bại!',
                 'status' => 0], 500);
         }
+    }
+
+    public function apply($id_seeker, $id_job)
+    {
+        try {
+            $seeker = Seeker::where('user_id', $id_seeker)->first();
+            $jobs = $seeker->jobs;
+            foreach ($jobs as $job) {
+                $arrayIdJobs[] = $job->id;
+            }
+            if (in_array($id_job, $arrayIdJobs)) {
+                return response()->json(['message' => 'Bạn đã ứng tuyển công việc này!',
+                                        'status' => 2], 200);
+            }
+            $seeker->jobs()->attach($id_job);
+            return response()->json(['message' => 'Nộp CV thành công!',
+                                      'status' => 1], 200);
+        } catch (\Exception $exception) {
+            return response()->json(['message' => 'Something wrong!',
+                                     'status' => 0], 500);
+        }
+    }
+
+    public function getAllJobsApplied($id) {
+        $seeker = Seeker::where('user_id', $id)->first();
+        $jobs = $seeker->jobs;
+        return response()->json($jobs, 200);
     }
 }

@@ -46,6 +46,8 @@ Route::get('companies', [CompanyController::class, 'index']);
 //Seeker
 Route::get('seeker/{id}/details', [SeekerController::class, 'details']);
 Route::post('seeker/{id}/update', [SeekerController::class, 'update']);
+Route::get('seeker/{id}/jobs-applied', [SeekerController::class, 'getAllJobsApplied']);
+Route::get('{id_seeker}/seeker/{id_job}/job', [SeekerController::class, 'apply']);
 
 //Category
 Route::get('categories',[CategoryController::class, 'getAll']);
