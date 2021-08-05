@@ -17,6 +17,12 @@ class JobController extends Controller
         return response()->json($jobs, 200);
     }
 
+    public function getFirstFiveJob(): \Illuminate\Http\JsonResponse
+    {
+        $jobs = Job::with('company', 'category', 'city')->where('status', '=', '1')->orderBy('id', 'desc')->take(5)->get();
+        return response()->json($jobs, 200);
+    }
+
     public function findById($id): \Illuminate\Http\JsonResponse
     {
         $job = Job::with('city', 'category', 'company')->find($id);

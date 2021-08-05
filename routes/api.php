@@ -56,6 +56,7 @@ Route::post('job/{id}/update',[JobController::class, 'update']);
 
 //Get all jobs desc
 Route::get('jobs',[JobController::class, 'index']);
+Route::get('jobs/5',[JobController::class, 'getFirstFiveJob']);
 
 
 //search
