@@ -128,8 +128,8 @@ class JobController extends Controller
 
     public function searchBySalary(Request $request): \Illuminate\Http\JsonResponse
     {
-        $from_salary= +$request->from_salary;
-        $to_salary= +$request->to_salary;
+        $from_salary= (+$request->from_salary)*1000000;
+        $to_salary= (+$request->to_salary)*1000000;
         if (!$from_salary){
             $jobs = Job::with('company', 'category', 'city')
                 ->where('status', '=', 1)
