@@ -128,13 +128,25 @@ class JobController extends Controller
 
     public function searchBySalary(Request $request): \Illuminate\Http\JsonResponse
     {
-        $from_salary= +$request->from_salary;
-        $to_salary= +$request->to_salary;
-        $jobs = Job::with('company', 'category', 'city')
-            ->where('status', '=', 1)
-            ->where('from_salary','>=',$from_salary)
-            ->where('to_salary','<=',$to_salary)
-            ->get();
+        $from_salary= (+$request->from_salary)*1000000;
+        $to_salary= (+$request->to_salary)*1000000;
+        if (!$from_salary){
+            $jobs = Job::with('company', 'category', 'city')
+                ->where('status', '=', 1)
+                ->where('to_salary','<=',$to_salary)
+                ->get();
+        }elseif (!$to_salary){
+            $jobs = Job::with('company', 'category', 'city')
+                ->where('status', '=', 1)
+                ->where('from_salary','>=',$from_salary)
+                ->get();
+        }else{
+            $jobs = Job::with('company', 'category', 'city')
+                ->where('status', '=', 1)
+                ->where('from_salary','>=',$from_salary)
+                ->where('to_salary','<=',$to_salary)
+                ->get();
+        }
         return response()->json([
             'message' => 'search success',
             'jobs' => $jobs,
