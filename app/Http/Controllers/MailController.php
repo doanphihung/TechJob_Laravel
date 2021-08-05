@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Mail;
 
 class MailController extends Controller
 {
-    public function forwardJob(Request $request, $id)
+    public function forwardJob(Request $request, $id): \Illuminate\Http\JsonResponse
     {
         try {
 
@@ -27,6 +27,26 @@ class MailController extends Controller
         } catch (\Exception $exception) {
             return response()->json(['message' => 'Gửi Mail thất bại!'], 500);
         }
+
+//        $job = Job::with('company', 'city', 'category')->find($id);
+//        Mail::to($request->email)->queue(new SendMail($job));
+//        return response()->json(['message' => 'Gửi mail thành công!']);
+
+
+    }
+
+    public function verifyEmail($user)
+    {
+            $toEmail = $user->email;
+            $confirmation_code = $user->confirmation_code;
+            $data = [
+                'confirmation_code' => $confirmation_code
+            ];
+            $subject = '[TechJob] - Xác thực Email';
+            Mail::send('mail.confirm-email', $data, function ($message) use ($subject, $toEmail) {
+                $message->to($toEmail)->subject($subject);
+                $message->from('hungq394@gmail.com', 'TechJob');
+            });
     }
 
 

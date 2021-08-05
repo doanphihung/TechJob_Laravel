@@ -14,8 +14,15 @@ use Tymon\JWTAuth\Facades\JWTAuth;
 
 class AuthController extends Controller
 {
+    private $mail;
+    public function __construct(MailController $mail)
+    {
+        $this->mail= $mail;
+    }
+
     public function employerRegister(Request $request)
     {
+        $confirmation_code = time().uniqid(true);
         $oldEmail = User::where('email', $request->email)->first();
         if ($oldEmail) {
             return response()->json(['message' => 'Email đã tồn tại!',
@@ -28,6 +35,7 @@ class AuthController extends Controller
             $user->email = $request->email;
             $user->password = Hash::make($request->password);
             $user->role = 2;
+            $user->confirmation_code = $confirmation_code;
             $user->save();
             if ($user) {
                 $company_acronym = strtoupper(substr(preg_replace('/\s+/', '', $request->name), 0, 3));
@@ -41,6 +49,7 @@ class AuthController extends Controller
                 $company->save();
                 $company->code = $company_acronym . $company->id . rand(1000, 9999);
                 $company->save();
+                $this->mail->verifyEmail($user);
                 DB::commit();
                 return response()->json(['message' => 'Đăng ký tài khoản thành công!',
                     'status' => '1'], 201);
@@ -54,6 +63,7 @@ class AuthController extends Controller
 
     public function seekerRegister(Request $request): \Illuminate\Http\JsonResponse
     {
+        $confirmation_code = time().uniqid(true);
         $oldEmail = User::where('email', $request->email)->first();
         $oldPhoneSeeker = Seeker::where('phone', '=', $request->phone)->first();
         $oldPhoneCompany = Company::where('phone', '=', $request->phone)->first();
@@ -73,14 +83,16 @@ class AuthController extends Controller
             $user->email = $request->email;
             $user->password = Hash::make($request->password);
             $user->role = 1;
+            $user->confirmation_code = $confirmation_code;
             $user->save();
             if ($user) {
                 $seeker = new Seeker();
                 $seeker->phone = $request->phone;
                 $seeker->user_id = $user->id;
                 $seeker->save();
+                $this->mail->verifyEmail($user);
                 DB::commit();
-                return response()->json(['message' => 'Đăng ký tài khoản thành công! Mời bạn đăng nhập để tiếp tục!',
+                return response()->json(['message' => 'Đăng ký tài khoản thành công!',
                     'status' => '1'], 201);
             }
         } catch (\Exception $exception) {
@@ -89,10 +101,29 @@ class AuthController extends Controller
         }
     }
 
+    public function verifyEmail($confirmationCode){
+        $user = User::where('confirmation_code', $confirmationCode);
+        if ($user->count() > 0) {
+            $user->update([
+                'confirmed' => 1,
+                'confirmation_code' => null
+            ]);
+            return  response()->json(['message' => 'Tài khoản đã được xác thực. Bạn có thể đăng nhập để sử dụng dịch vụ!'], 200);
+        } else {
+            return  response()->json(['message' => 'Xác nhận tài khoản thất bại!'], 500);
+        }
+
+    }
+
 
     public function login(Request $request)
     {
-        $credentials = $request->only(['email', 'password']);
+//        $credentials = $request->only(['email', 'password']);
+        $credentials = [
+            'email' => $request->email,
+            'password' => $request->password,
+            'confirmed' => 1
+        ];
         try {
             if (!JWTAuth::attempt($credentials)) {
                 return response()->json(['message' => 'Email hoặc mật khẩu không chính xác!',
