@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\City;
+use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+
 
 class CityController extends Controller
 {
@@ -26,9 +29,21 @@ class CityController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        try {
+            DB::beginTransaction();
+
+            $city = new City();
+            $city->fill($request->all());
+            $city->save();
+            DB::commit();
+            $cities = City::all();
+            return response()->json($cities);
+        } catch(Exception $e) {
+            DB::rollback();
+            return response()->json(['message' => 'error']);
+        }
     }
 
     /**
