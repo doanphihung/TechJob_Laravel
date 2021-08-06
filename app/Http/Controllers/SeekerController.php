@@ -59,17 +59,21 @@ class SeekerController extends Controller
         try {
             $seeker = Seeker::where('user_id', $id_seeker)->first();
             $jobs = $seeker->jobs;
-            foreach ($jobs as $job) {
-                $arrayIdJobs[] = $job->id;
-            }
-            if (in_array($id_job, $arrayIdJobs)) {
-                return response()->json(['message' => 'Bạn đã ứng tuyển công việc này!',
-                                        'status' => 2], 200);
+            $arrayIdJobs= [];
+            if ($jobs) {
+                foreach ($jobs as $job) {
+                    $arrayIdJobs[] = $job->id;
+                }
+                if (in_array($id_job, $arrayIdJobs)) {
+                    return response()->json(['message' => 'Bạn đã ứng tuyển công việc này!',
+                        'status' => 2], 200);
+                }
             }
             $seeker->jobs()->attach($id_job);
             return response()->json(['message' => 'Nộp CV thành công!',
                                       'status' => 1], 200);
         } catch (\Exception $exception) {
+//            return $exception->getMessage();
             return response()->json(['message' => 'Something wrong!',
                                      'status' => 0], 500);
         }
